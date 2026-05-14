@@ -1,11 +1,17 @@
 @import 'tailwindcss';
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@0,400;0,600;1,400&display=swap');
 
 @theme {
-  --color-accent: #2563eb;
-  --color-accent-light: #3b82f6;
-  --color-marked: #dcfce7;
-  --color-marked-border: #22c55e;
-  --color-bingo: #fbbf24;
+  --color-accent: #FFD700;
+  --color-accent-light: #FFED4E;
+  --color-marked: #00FF00;
+  --color-marked-border: #00DD00;
+  --color-bingo: #FFD700;
+  --color-noir-bg: #000000;
+  --color-noir-card: #1a1a1a;
+  --color-noir-text: #FFFFFF;
+  --color-noir-border: #333333;
+  --color-noir-shadow: rgba(255, 215, 0, 0.1);
 }
 
 html,
@@ -18,4 +24,6 @@ body {
   margin: 0;
   font-family: system-ui, -apple-system, sans-serif;
   -webkit-tap-highlight-color: transparent;
+  background-color: var(--color-noir-bg);
+  color: var(--color-noir-text);
 }
